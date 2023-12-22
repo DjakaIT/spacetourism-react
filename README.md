@@ -1,3 +1,3 @@
-# spacetourism-react# React + Vite
+ # React + Vite
 
 ## I've added Vite to power this react project
