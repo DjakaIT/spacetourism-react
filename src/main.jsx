@@ -10,8 +10,8 @@ import App from './App';
 import NotFound from './components/NotFound';
 // pages
 import Home from '../src/pages/home';
-import Destination from './pages/destination';
 import Crew from './pages/crew';
+import Destination from './pages/destination';
 import Technology from './pages/technology';
 
 const router = createBrowserRouter([
@@ -38,7 +38,10 @@ const router = createBrowserRouter([
       element: <Technology />,
       errorElement: <NotFound />,
     }, 
-
+    {
+      path: '/not-found',
+      element: <NotFound />,
+    },
   ]);
 
 
