@@ -1,0 +1,12 @@
+
+
+
+
+.destinationDiv{
+    background-image: url("/assets/background/background-destination-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw; 
+    height: 100vh; 
+    color: white;
+}

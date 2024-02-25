@@ -1,0 +1,6 @@
+.navMainDiv{
+    color: rgb(255, 162, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

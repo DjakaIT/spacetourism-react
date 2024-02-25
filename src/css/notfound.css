@@ -1,0 +1,66 @@
+/* imports - fonts, etc. */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
+
+body{
+    background-image: none;
+    background-color: white;
+}
+
+.notFound{
+    background-image: url("/public/assets/undraw_stars_re_6je7.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 98vh;
+    width: auto;
+    overflow-y: hidden;
+    margin-right: 10%;
+}
+
+.error404_h2{
+    margin-bottom: -5%;
+}
+
+.notFoundMessage{
+    margin-top: 25%;
+    margin-left: 85%;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notFound_p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.4em;
+}
+
+.goBackLink {
+    background-color: #6C63FF;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .goBackLink:hover {
+    background-color: #2980b9; 
+  }
+
+
