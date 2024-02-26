@@ -10,7 +10,6 @@ export default function Home() {
   return(
     <div className="homeDiv">
         <Navbar />
-        <section className="home">
             <div className="overlay-container">
                 <section className="home-text-container" data-aos="fade-up-right">
                     <h5>So, you want to travel to</h5>
@@ -28,7 +27,6 @@ export default function Home() {
                     </div>                    
                 </section>
             </div>
-        </section>
     </div>
   
 )
