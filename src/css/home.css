@@ -12,11 +12,12 @@
 }
 
 
-    .overlay-container{
-        position: relative;
-        top: 30%;
-        left: 5%;
-    }
+.overlay-container{
+    position: relative;
+    top: 25%;
+    left: 8%;
+}
+
 
 
 
@@ -57,8 +58,8 @@ h5, h1{
 
 .explore-btn-container{
     position: absolute;
-    left: 70%;
-    bottom: 10%;
+    left: 65%;
+    bottom: 0;
    
 
 }
@@ -66,8 +67,8 @@ h5, h1{
 
 .explore-btn{
     border-radius: 50%;
-    height: 260px;
-    width: 260px;
+    height: 265px;
+    width: 265px;
     padding: 0;
     border: none;
     font-family: "Bellefair", serif;
@@ -85,3 +86,10 @@ h5, h1{
   }
 
 
+
+
+
+
+
+
+  
