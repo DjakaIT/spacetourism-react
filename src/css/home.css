@@ -87,9 +87,74 @@ h5, h1{
 
 
 
+/* Media Queries */
+@media only screen and (max-width: 980px) {
+    .homeDiv {
+        background-image: url("/assets/background/background-home-tablet.jpg"); /* Change background image */
+    }
+    
+    .overlay-container {
+        top: 10%; 
+        left: 25%;
+        
+       
+    }
 
+    .explore-btn{
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;    
+        font-size: 24px;
+        line-height: 27px;
+    
+    }
 
+    .explore-btn-container{
+        top: 50%;
+       left: 20%;
+    }
 
+    h5{     
+        font-size: 23px;
+        line-height: 24px;
+        letter-spacing: 4px;
+    }
+    
+    h1{  
+        font-size: 100px;
+    }
+    
+    .description{  
+        font-size: 18px;
+        width: 70%;
+        line-height: 32px;
+     
+    }
+}
 
+/* For Mobile Devices */
+@media only screen and (max-width: 790px) {
+    .homeDiv {
+        background-image: url("/assets/background/background-home-mobile.jpg"); /* Change background image */
+    }
 
+    .overlay-container {
+        margin-top: 20%; /* Adjust top margin for even smaller devices */
+    }
+
+    h1 {
+        font-size: 100px; /* Decrease font size for smaller devices */
+    }
+
+    .description {
+        width: 95%; /* Adjust width for better readability */
+    }
+
+    .explore-btn {
+        height: 160px; /* Adjust button size for smaller devices */
+        width: 160px;
+        font-size: 18px; /* Adjust font size for smaller devices */
+        line-height: 22px;
+    }
+}
   
