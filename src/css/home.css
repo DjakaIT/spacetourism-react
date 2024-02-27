@@ -8,18 +8,16 @@
     width: 100vw; 
     height: 100vh; 
     color: white;
+    
 }
 
-.overlay-container{
 
-}
+    .overlay-container{
+        position: relative;
+        top: 30%;
+        left: 5%;
+    }
 
-.home-text-container {
-    display: 'flex';
-    align-items: 'center';
-    justify-content: 'flex-start';
-    margin-left: 25px;
-  }
 
 
 h5{
@@ -27,9 +25,10 @@ h5{
     font-style: normal;
     font-Weight: 500;
     font-size: 28px;
-
     color:#d0d6f9;
     text-transform: uppercase;
+    line-height: 34px;
+    letter-spacing: 4px;
 }
 
 h1{
@@ -37,7 +36,6 @@ h1{
     font-style: normal;
     font-weight: 500;
     font-size: 150px;
- 
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -45,19 +43,45 @@ h1{
 .description{
     font-family: 'Barlow', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400; 
     font-size: 18px;
-
     color: #d0d6f9;
+    width: 40%;
+    line-height: 32px;
+ 
+}
+
+h5, h1{
+    margin: 10px;
 }
 
 .explore-btn-container{
+    position: absolute;
+    left: 70%;
+    bottom: 10%;
+   
 
 }
-.explore-btn-bg{
 
-}
 
 .explore-btn{
-
+    border-radius: 50%;
+    height: 260px;
+    width: 260px;
+    padding: 0;
+    border: none;
+    font-family: "Bellefair", serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 32px;
+    line-height: 37px;
+    color: rgb(17, 19, 20);
+		transition: all .4s ease-out;
 }
+
+.explore-btn:hover {
+    box-shadow: 0 0 0 75px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+
+
