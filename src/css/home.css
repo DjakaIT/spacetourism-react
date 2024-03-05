@@ -80,7 +80,7 @@ h5, h1{
     font-size: 32px;
     line-height: 37px;
     color: rgb(17, 19, 20);
-		transition: all .4s ease-out;
+	transition: all .4s ease-out;
 }
 
 .explore-btn:hover {
@@ -106,19 +106,22 @@ h5, h1{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    
     }
 
     .explore-btn{
         border-radius: 50%;
-        height: 200px;
-        width: 200px;    
+        height: 180px;
+        width: 180px;    
         font-size: 24px;
         line-height: 27px;
-    
+
+
     }
 
     .explore-btn-container{
-        top: 22em;                
+        top: 20em;        
+        left: 20em;        
     }
 
     h5{     
