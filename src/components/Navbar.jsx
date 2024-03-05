@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../css/navbar.css';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
   return (
@@ -42,6 +43,9 @@ export default function Navbar() {
             </NavLink>
           </li>
         </ul>
+       {/* <li className='hamburgerMenuTrigger'>
+            <NavLink>{faBars}</NavLink>
+          </li> */}
       </nav>
     </div>
   );
