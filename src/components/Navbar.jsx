@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../css/navbar.css';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen((open) => !open);
+  }
+
   return (
     <div className='navbarDiv'>
       <nav className="navbar">
