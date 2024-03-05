@@ -11,7 +11,7 @@ export default function Home() {
     <div className="homeDiv">
         <Navbar />                                                                                                                                                                                                                                                                                                                                                                                          
             <div className="overlay-container">
-                <section className="home-text-container">
+                <section className='home-text-container'>
                     <h5>So, you want to travel to</h5>
                     <h1>Space</h1>
                     <p className="description">

@@ -56,6 +56,9 @@ h5, h1{
     margin: 10px;
 }
 
+
+
+
 .explore-btn-container{
     position: absolute;
     left: 65%;
@@ -86,18 +89,23 @@ h5, h1{
   }
 
 
-
 /* Media Queries */
 @media only screen and (max-width: 980px) {
     .homeDiv {
         background-image: url("/assets/background/background-home-tablet.jpg"); /* Change background image */
     }
-    
-    .overlay-container {
-        top: 10%; 
-        left: 25%;
+
+   
+    .overlay-container{
+        top: 4em;
         
-       
+    }
+
+    .home-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .explore-btn{
@@ -110,8 +118,7 @@ h5, h1{
     }
 
     .explore-btn-container{
-        top: 50%;
-       left: 20%;
+        top: 22em;                
     }
 
     h5{     
@@ -126,8 +133,8 @@ h5, h1{
     
     .description{  
         font-size: 18px;
-        width: 70%;
-        line-height: 32px;
+        width: 50%;
+        line-height: 25px;
      
     }
 }
@@ -139,22 +146,27 @@ h5, h1{
     }
 
     .overlay-container {
-        margin-top: 20%; /* Adjust top margin for even smaller devices */
+        margin-top: 20%;
     }
 
     h1 {
-        font-size: 100px; /* Decrease font size for smaller devices */
+        font-size: 100px;
     }
 
     .description {
-        width: 95%; /* Adjust width for better readability */
+        width: 70%;
     }
 
     .explore-btn {
-        height: 160px; /* Adjust button size for smaller devices */
+        height: 160px; 
         width: 160px;
-        font-size: 18px; /* Adjust font size for smaller devices */
+        font-size: 18px; 
         line-height: 22px;
+    }
+
+    .explore-btn-container{
+        
+      
     }
 }
   
