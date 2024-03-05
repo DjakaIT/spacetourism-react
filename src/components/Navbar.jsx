@@ -48,11 +48,13 @@ export default function Navbar() {
             >
               <b>03</b> TECHNOLOGY
             </NavLink>
-          </li>
+          </li> 
+          <li className='hamburger-menu-trigger'>
+            <NavLink>
+              <button></button>
+            </NavLink>
+          </li> 
         </ul>
-       {/* <li className='hamburgerMenuTrigger'>
-            <NavLink>{faBars}</NavLink>
-          </li> */}
       </nav>
     </div>
   );

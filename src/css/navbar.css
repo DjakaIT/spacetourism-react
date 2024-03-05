@@ -98,41 +98,15 @@ ul li{
   }
 
 
-  .hamburgerMenuTrigger{
-    display: none;
+  .hamburger-menu-trigger {
+    display: none; 
   }
   
   
   /* POPRAVITI CITAV CSS ZASAD */
 
-/*   @media only screen and (max-width: 768px) {
-    .homeDiv {
-        background-image: url("/assets/background/background-home-mobile.jpg"); 
-    }
+  @media only screen and (max-width: 840px) {
+   
 
-    .overlay-container {
-        top: 3em;
-    }
-
-    h1 {
-        font-size: 100px;
-    }
-
-    .description {
-        width: 70%;
-    }
-
-    .explore-btn {
-        height: 160px; 
-        width: 160px;
-        font-size: 18px; 
-        line-height: 22px;
-    }
-
-    .explore-btn-container{
-        
-        top: 22em;        
-        left: 10em;  
-    }
 }
-   */
+   
