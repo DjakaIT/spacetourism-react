@@ -130,6 +130,12 @@ ul li{
 
   }
 
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   ul li{
     font-size: 14px;
     letter-spacing: 1.5px;

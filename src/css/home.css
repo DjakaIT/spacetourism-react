@@ -202,6 +202,38 @@ h5, h1{
     .explore-btn-container{
         
         top: 22em;        
+        left: 18em;  
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .homeDiv {
+        background-image: url("/assets/background/background-home-mobile.jpg"); /* Change background image */
+    }
+
+    .overlay-container {
+        top: 3em;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    .description {
+        width: 70%;
+    }
+
+    .explore-btn {
+        height: 160px; 
+        width: 160px;
+        font-size: 18px; 
+        line-height: 22px;
+    }
+
+    .explore-btn-container{
+        
+        top: 22em;        
         left: 10em;  
     }
 }
