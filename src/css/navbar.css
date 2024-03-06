@@ -2,10 +2,9 @@ nav{
     padding-top: 2.1rem;
     position: relative;
     left: 25rem;
-    width: 100%;
-   
+    width: auto;
     border-collapse: collapse;
-    height: 100px;
+    height: 6.25em;
 
 }
 
@@ -103,10 +102,3 @@ ul li{
   }
   
   
-  /* POPRAVITI CITAV CSS ZASAD */
-
-  @media only screen and (max-width: 840px) {
-   
-
-}
-   
