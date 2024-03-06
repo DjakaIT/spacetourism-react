@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../css/navbar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
@@ -51,11 +52,14 @@ export default function Navbar() {
           </li> 
           <li className='hamburger-menu-trigger'>
             <NavLink>
-              <button></button>
+              <button onClick={toggleMenu}>
+              <FontAwesomeIcon icon={faBars} />
+              </button>
             </NavLink>
           </li> 
         </ul>
       </nav>
+      
     </div>
   );
 }

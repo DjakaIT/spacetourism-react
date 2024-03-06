@@ -117,6 +117,10 @@ ul li{
       letter-spacing: 1.5px;
     }
 
+    .navbar-dash{
+      width: 20%;
+    }
+
   }
 
   @media only screen and (max-width: 839px) and (min-width: 768px) {
@@ -140,6 +144,10 @@ ul li{
     letter-spacing: 1.5px;
   }
 
+  .navbar-dash{
+    display: none;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -147,4 +155,9 @@ ul, .navbar-dash{
   display: none;
 }
 
+
+
 }
+
+
+
