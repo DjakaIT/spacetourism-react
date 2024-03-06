@@ -5,6 +5,7 @@ nav{
     width: auto;
     border-collapse: collapse;
     height: 6.25em;
+    transition: all 0.3s ease-in-out;
 
 }
 
@@ -12,7 +13,6 @@ nav, ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
 }
 
 ul li{
@@ -101,4 +101,45 @@ ul li{
     display: none; 
   }
   
-  
+  @media only screen and (max-width: 1200px) and (min-width: 840px) {
+      nav{
+        padding-top: 2.1rem;
+        position: relative;
+        width: 70%;
+        border-collapse: collapse;
+        height: 6.25em;
+        transition: all 0.3s ease-in-out;
+
+    }
+
+    ul li{
+      font-size: 16px;
+      letter-spacing: 1.5px;
+    }
+
+  }
+
+  @media only screen and (max-width: 839px) and (min-width: 768px) {
+    nav{
+      padding-top: 2.1rem;
+      position: relative;
+      width: 40%;
+      border-collapse: collapse;
+      height: 6.25em;
+      transition: all 0.3s ease-in-out;
+
+  }
+
+  ul li{
+    font-size: 14px;
+    letter-spacing: 1.5px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+ul, .navbar-dash{
+  display: none;
+}
+
+}
