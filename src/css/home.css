@@ -214,6 +214,7 @@ h5, h1{
 
     .overlay-container {
         top: 3em;
+        left: 1em;
     }
 
     h1 {
