@@ -143,7 +143,7 @@ h5, h1{
 }
 
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 810px) and (min-width: 768px) {
     .homeDiv {
         background-image: url("/assets/background/background-home-mobile.jpg"); /* Change background image */
     }
