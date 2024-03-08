@@ -13,18 +13,14 @@
 
 .destinationDiv{
     position: relative;
-    bottom: 7rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10%;
-    gap: 10em;
+    left: 10%;
         
 }
 
 .pickDestinationDiv{
-    position: relative;
-    bottom: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,7 +75,7 @@
 }
 
 .destination-card-description{
-    width: 50%;
+    width: 30%;
 }
 
 .destination-card-bigTitle{
