@@ -12,13 +12,19 @@
 
 
 .destinationDiv{
+    position: relative;
+    bottom: 7rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding: 10%;
+    gap: 10em;
         
 }
 
 .pickDestinationDiv{
+    position: relative;
+    bottom: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,6 +66,7 @@
     font-size: 16px;
     text-transform: uppercase;
     color: white;
+    cursor: pointer;
 
 }
 
@@ -72,7 +79,7 @@
 }
 
 .destination-card-description{
-    width: 30%;
+    width: 50%;
 }
 
 .destination-card-bigTitle{
