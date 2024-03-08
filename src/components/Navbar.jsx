@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsOpen((open) => !open);
+    setIsOpen(!isOpen);
   }
 
   return (
@@ -48,13 +48,6 @@ export default function Navbar() {
               className={({ isActive }) => (isActive ? 'navbar-link active' : 'navbar-link')}
             >
               <b>03</b> TECHNOLOGY
-            </NavLink>
-          </li> 
-          <li className='hamburger-menu-trigger'>
-            <NavLink>
-              <button onClick={toggleMenu}>
-              <FontAwesomeIcon icon={faBars} />
-              </button>
             </NavLink>
           </li> 
         </ul>

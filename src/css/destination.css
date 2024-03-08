@@ -1,12 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-
-
-.destinationDiv{
+.mainDivDestination{
     background-image: url("/assets/background/background-destination-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw; 
     height: 100vh; 
     color: white;
+    overflow: hidden;
 }
+
+
+.destinationDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+        
+}
+
+.pickDestinationDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.pickDestinationH1{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.7px;
+    text-align: start;    
+    display: flex;
+    gap: 1em;
+    
+}
+
+.numDestination{
+    color: #4A4D56;
+}
+
+
+
+
+.destination-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.destination-card-btn{
+   
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.destination-card-itemsBelow{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.destination-card-description{
+    width: 30%;
+}
+
+.destination-card-bigTitle{
+    font-size: 100px;
+ 
+}
+
+

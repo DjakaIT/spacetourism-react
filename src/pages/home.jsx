@@ -4,6 +4,7 @@ import '../css/home.css'
 import Navbar from '../components/Navbar'
 import 'aos/dist/aos.css';
 import Aos from 'aos'
+
 export default function Home() {
 
     useEffect(() => {
