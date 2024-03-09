@@ -22,9 +22,9 @@ export default function Destination() {
 
       <div className='destinationDiv'>
 
-        <div className="pickDestinationDiv" data-aos="fade-right"  data-aos-duration="1500">
+        <div className="pickDestinationDiv">
           <h1 className="pickDestinationH1"><b className="numDestination">01</b>PICK YOUR DESTINATION</h1>
-          <img src={images.png} alt={name} title={name} className="planetImg" />
+          <img src={images.png} alt={name} title={name} className="planetImg" data-aos="fade-right"  data-aos-duration="1500"/>
         </div>
 
 
