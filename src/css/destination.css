@@ -53,6 +53,8 @@
     justify-content: center;
     align-items: center;
     gap: 2em;
+    position: relative;
+    top: 3rem;
 }
 
 .destination-card-btn{
@@ -64,13 +66,19 @@
     text-transform: uppercase;
     color: white;
     cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    right: 4rem;
+    
 
 }
+
+
 
 .destination-card-itemsBelow{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 
 }
@@ -82,6 +90,8 @@
     font-weight: 400;
     line-height: 32px; 
     width: 40%;
+    color: #CBD1F3;
+    
 }
 
 .destination-card-bigTitle{
@@ -89,7 +99,60 @@
     font-style: normal;
     font-weight: 500;;
     font-size: 100px;
+    position: relative;
+    right: 3rem;
+    
  
 }
 
+.divDash{
+    align-self: center;
+    width: 40%; 
+    height: 1px; 
+    background-color: rgba(255, 255, 255, 0.573); 
+}
 
+
+.travelDetailsDiv{
+    display: flex;
+    gap: 5rem;
+}
+
+.avgDistDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-transform: uppercase;
+    margin: 0 auto;
+    
+    
+}
+
+.avgDistanceText{
+    font-family: 'Barlow Condensed', serif;
+    font-size: 14px;
+}
+
+.avgDistanceNum{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+}
+
+.estTimeDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.estTimeText{
+    font-family: 'Barlow Condensed', serif;
+    font-size: 14px;
+}
+
+.estTimeNum{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+}
