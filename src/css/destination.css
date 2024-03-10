@@ -91,6 +91,7 @@
     line-height: 32px; 
     width: 40%;
     color: #CBD1F3;
+    margin-top: 0px;
     
 }
 
@@ -116,43 +117,31 @@
 .travelDetailsDiv{
     display: flex;
     gap: 5rem;
-}
-
-.avgDistDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
     text-transform: uppercase;
-    margin: 0 auto;
     
-    
+
 }
 
-.avgDistanceText{
+.avgDistDiv,
+.estTimeDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+
+.avgDistanceText,
+.estTimeText {
     font-family: 'Barlow Condensed', serif;
     font-size: 14px;
+
 }
 
-.avgDistanceNum{
+.avgDistanceNum,
+.estTimeNum {
     font-family: 'Bellefair', serif;
     font-size: 28px;
+    margin-top: 0;
 }
 
-.estTimeDiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    
-}
-
-.estTimeText{
-    font-family: 'Barlow Condensed', serif;
-    font-size: 14px;
-}
-
-.estTimeNum{
-    font-family: 'Bellefair', serif;
-    font-size: 28px;
-}
