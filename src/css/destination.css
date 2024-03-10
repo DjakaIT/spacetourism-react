@@ -145,3 +145,11 @@
     margin-top: 0;
 }
 
+.planetImg{
+    animation: rotatePlanet infinite alternate ease-in-out 10s;
+}
+
+@keyframes rotatePlanet {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
