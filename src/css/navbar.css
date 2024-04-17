@@ -85,15 +85,16 @@ ul li{
     left: -20em;
   }
 
-.navbar-dash {
-    position: fixed; 
-    align-self: center; 
-    transform: translateY(-50%);  
-    left: 25%;
-    width: 30%; 
-    height: 1px; 
-    background-color: rgba(255, 255, 255, 0.573); 
+  .navbar-dash {
+    position: absolute;
+    align-self: center;
+    transform: translateY(-50%);
+    left: 0.1%;
+    width: 30%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.573);
     z-index: 99;
+    margin-top: -1px; 
   }
 
 
@@ -115,6 +116,10 @@ ul li{
     }
 
     .navbar-dash{
+      position: absolute;
+
+      left: -10%;
+  
       width: 20%;
     }
 
