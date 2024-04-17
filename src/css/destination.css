@@ -179,7 +179,10 @@
 
 @media only screen and (max-width: 767px) and (min-width: 580px) {
 
+    .mainDivDestination{
+        background-image: url("/assets/background/background-destination-tablet.jpg");
     
+    }
 
     .mainDivDestination {
         overflow: auto; 
@@ -219,7 +222,10 @@
 
 @media only screen and (max-width: 579px) {
 
+    .mainDivDestination{
+        background-image: url("/assets/background/background-destination-mobile.jpg");
     
+    }
 
     .mainDivDestination {
         overflow: auto; 
