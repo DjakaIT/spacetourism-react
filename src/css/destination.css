@@ -198,7 +198,7 @@
     .destinationDiv{
         display: flex;
         flex-flow: column;
-        
+        margin-right: 5rem;        
     }
 
     .planetImg{
@@ -240,6 +240,7 @@
     .destinationDiv{
         display: flex;
         flex-flow: column;
+        margin-right: 5rem;   
     }
 
     .planetImg{
