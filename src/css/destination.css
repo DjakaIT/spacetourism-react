@@ -11,6 +11,17 @@
     overflow: hidden;
 }
 
+.mainDivDestination {
+    overflow: auto; 
+}
+
+.mainDivDestination::-webkit-scrollbar {
+    display: none;
+}
+
+.mainDivDestination {
+    scrollbar-width: none;
+}
 
 .destinationDiv{
     position: relative;
@@ -184,17 +195,6 @@
     
     }
 
-    .mainDivDestination {
-        overflow: auto; 
-    }
-    
-    .mainDivDestination::-webkit-scrollbar {
-        display: none;
-    }
-    
-    .mainDivDestination {
-        scrollbar-width: none;
-    }
     
     
 
@@ -227,17 +227,6 @@
     
     }
 
-    .mainDivDestination {
-        overflow: auto; 
-    }
-    
-    .mainDivDestination::-webkit-scrollbar {
-        display: none;
-    }
-    
-    .mainDivDestination {
-        scrollbar-width: none;
-    }
     
     .pickDestinationH1{
         font-size: 16px;

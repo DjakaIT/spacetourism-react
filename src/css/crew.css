@@ -31,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
 }
 
 .numberedCrew{
@@ -71,7 +72,8 @@
     font-weight: 400;
     line-height: 32px; 
     color: #CBD1F3;
-    width: 60%;
+    max-width: 80%;
+    text-wrap: wrap;
     
     
 }
@@ -94,9 +96,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3em;
+    margin-top: 2em;
+    margin-bottom: 3em;
     gap: 1em;
   }
+
+
 .crewMainDiv{
     display: flex;
     justify-content: space-around;
@@ -119,5 +124,130 @@
     top: 5rem;
 
 }
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+    .crewMemberImage{
+        transform: scale(0.8);
+    }
+
+
+    
+    .crewMemberBio{
+        font-size: 16px;
+    }
+
+    .crewMemberName{
+        font-size: 40px;
+    }
+
+    .crewMemberRole{
+        font-size: 24px;
+    }
+
+    .crewTitleDiv{
+       font-size: 20px;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 980px) and (min-width: 768px) {
+    .crewDiv{
+        background-image: url("/assets/background/background-crew-tablet.jpg");
+    
+    }
+    
+    .crewMemberImage{
+        transform: scale(0.65);
+    }
+
+    .crewMemberBio{
+        font-size: 14px;
+    }
+
+    .crewMemberName{
+        font-size: 40px;
+    }
+
+    .crewMemberRole{
+        font-size: 24px;
+    }
+
+    .crewTitleDiv{
+       font-size: 20px;
+    }
+    
+
+    .crewImageDiv{
+        top: 0;
+        right: -5%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .crewDiv{
+        background-image: url("/assets/background/background-crew-mobile.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .crewMainDiv{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;
+
+        
+    }
+  
+    .crewTitleDiv {
+        display: flex;
+        justify-self: center;
+        align-self: center; 
+        margin-bottom: 1em; 
+    }
+
+    .crewImageDiv {
+        margin-bottom: 1em; 
+    }
+
+    .crewSelectorDiv {
+        align-self: center; 
+        margin-bottom: 1em;
+    }
+
+    .crewMemberDiv {
+        
+        align-self: center; 
+    }
+
+    .crewMemberBio{
+        font-size: 14px;
+    }
+
+    .crewMemberName{
+        font-size: 40px;
+    }
+
+    .crewMemberRole{
+        font-size: 24px;
+    }
+
+    .crewTitleDiv{
+       font-size: 20px;
+    }
+
+    .crewMemberImage{
+        transform: scale(0.4);
+    }
+
+}
+
+
 
 

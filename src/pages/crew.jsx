@@ -53,7 +53,11 @@ const handlMemberOnClick = (index) => {
         </div>
 
         <div className="crewImageDiv">
-            <img src={images.png} alt={name} />
+            <img 
+              src={images.png} 
+              alt={name} 
+              className='crewMemberImage'
+            />
         </div>
 
       </div>
