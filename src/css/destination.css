@@ -88,9 +88,9 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 32px; 
-    width: 40%;
     color: #CBD1F3;
     margin-top: 0px;
+    width: 40%;
     
 }
 
@@ -176,4 +176,90 @@
     
 }
 
-/* For Mobile Devices */
+
+@media only screen and (max-width: 767px) and (min-width: 580px) {
+
+    
+
+    .mainDivDestination {
+        overflow: auto; 
+    }
+    
+    .mainDivDestination::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .mainDivDestination {
+        scrollbar-width: none;
+    }
+    
+    
+
+    .destinationDiv{
+        display: flex;
+        flex-flow: column;
+        
+    }
+
+    .planetImg{
+        width: 50%;
+        height: 50%;
+    }
+
+    .destination-card-description{
+        width: 80%;
+        font-size: 16px;
+    }
+    .divDash{
+        width: 75%;
+    }
+}
+
+
+
+@media only screen and (max-width: 579px) {
+
+    
+
+    .mainDivDestination {
+        overflow: auto; 
+    }
+    
+    .mainDivDestination::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .mainDivDestination {
+        scrollbar-width: none;
+    }
+    
+    .pickDestinationH1{
+        font-size: 16px;
+    }
+
+    .destinationDiv{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .planetImg{
+        width: 40%;
+        height: 40%;
+    }
+    
+    .destination-card-bigTitle{
+        font-size: 56px;
+    }
+
+    .destination-card-description{
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .divDash{
+        width: 75%;
+    }
+
+  
+}
+
