@@ -194,11 +194,24 @@
         background-image: url("/assets/background/background-crew-mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column;
+
+        
     }
+
+
     
     .crewMainDiv{
+        display: flex;
         flex-flow: column;
-   
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .crewTextDiv{
+        order: 0;
     }
 
    
@@ -210,6 +223,11 @@
         margin-bottom: 1em; 
     }
 
+    .crewMemberImage{
+        position: relative;
+        bottom: 30%;
+        left: 10%;
+    }
  
 
     .crewSelectorDiv {
@@ -218,8 +236,7 @@
     }
 
     .crewMemberDiv {
-        
-        align-self: center; 
+        margin-left: 10%;
     }
 
     .crewMemberBio{
