@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import '../css/crew.css'
-import { NavLink } from 'react-router-dom'
 import data from "../json/data.json"
 import 'aos/dist/aos.css';
 import Aos from 'aos';
@@ -10,6 +9,11 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Crew() {
+  
+
+  useEffect(() => {
+    Aos.init();
+  })
 
 
   const crew = data.crew;
@@ -52,7 +56,11 @@ const handlMemberOnClick = (index) => {
 
         </div>
 
-        <div className="crewImageDiv">
+        <div 
+            className="crewImageDiv"  
+            data-aos="fade-up"
+            data-aos-duration="1500"
+        >
             <img 
               src={images.png} 
               alt={name} 

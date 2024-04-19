@@ -121,8 +121,8 @@
 .crewImageDiv{
     margin-right: 10%;
     position: relative;
-    top: 5rem;
-
+    top: 2rem;
+  
 }
 
 
@@ -207,7 +207,6 @@
         flex-flow: column;
         justify-content: center;
         align-items: center;
-        
     }
 
     .crewTextDiv{
@@ -225,7 +224,7 @@
 
     .crewMemberImage{
         position: relative;
-        bottom: 40%;
+        bottom: 35%;
         left: 10%;
     }
  
@@ -244,11 +243,11 @@
     }
 
     .crewMemberName{
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .crewMemberRole{
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .crewTitleDiv{
@@ -258,6 +257,9 @@
     .crewMemberImage{
         transform: scale(0.4);
     }
+
+
+   
 
 }
 
