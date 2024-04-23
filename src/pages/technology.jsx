@@ -11,9 +11,8 @@ export default function Technology() {
     Aos.init();
   })
 
-
   const tech = data.technology;
-  const[value, setValue] = useState(0);
+  const [value, setValue] = useState(0);
   const { name, images, description } = tech[value];
 
   const handleTechOnClick = (index) => {
@@ -24,7 +23,12 @@ export default function Technology() {
     return (index + 1).toString();
   }
 
-
+  const [windowSize, setWindowSize] = useState(window.innerWidth);
+  useEffect(() => {
+    window.addEventListener("resize", function () {
+      setWindowSize(window.innerWidth);
+    });
+  }, []);
 
   return (
     <div className='techDiv'>
@@ -32,11 +36,11 @@ export default function Technology() {
 
       <div className="techOverlayDiv">
         <div className="techTitleDiv">
-              <b className="numberedTech">03</b>
-              <h5 className="techTitleH5">SPACE LAUNCH 101</h5>
+          <b className="numberedTech">03</b>
+          <h5 className="techTitleH5">SPACE LAUNCH 101</h5>
         </div>
         <div className="mainTechDiv">
-        
+
           <div className="buttonDiv">
             {tech.map((item, index) => (
               <button
@@ -47,29 +51,26 @@ export default function Technology() {
                 {getIndexText(index)}
               </button>
             ))}
-        
           </div>
           <div className="descriptionDiv">
-              <h5 className="terminology">
-                The Terminology..
-              </h5>
-              <h3 className="chosenTech">
-                {name}
-              </h3>
-              <p className="techDescription">
-                {description}
-              </p>
+            <h5 className="terminology">
+              The Terminology..
+            </h5>
+            <h3 className="chosenTech">
+              {name}
+            </h3>
+            <p className="techDescription">
+              {description}
+            </p>
           </div>
           <div className="imageDiv">
-              <img 
-                	
-                  src={images.portrait} 
-                  alt={name}
-                  className="techImg" 
-                  
-              />
+            <img
+            src={windowSize > 980 ? images.portrait : images.landscape}
+            alt={name}
+            className={`techImg ${windowSize > 980 ? 'portrait' : 'landscape'}`}
+            />
           </div>
-        
+
         </div>
       </div>
 
