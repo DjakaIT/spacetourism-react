@@ -62,8 +62,8 @@ export default function Technology() {
           </div>
           <div className="imageDiv">
               <img 
-                	loading='lazy'
-                  src={images.portrait}
+                	
+                  src={images.portrait} 
                   alt={name}
                   className="techImg" 
                   

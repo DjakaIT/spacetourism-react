@@ -180,6 +180,8 @@
         scrollbar-width: none;
     }
 
+    
+
     .techOverlayDiv{
         display: flex;
         flex-flow: column;
@@ -189,6 +191,7 @@
     .mainTechDiv{
         display: flex;
         flex-flow: column;
+       
     }
 
     .techTitleDiv{
@@ -280,9 +283,12 @@
         order: 3;
     }
 
-    .techTitleDiv,
-    .numberedTech{
+    .techTitleH5{
         font-size: 18px;
+    }
+
+    .numberedTech{
+        font-size: 17px;
     }
 
     .chosenTech{
