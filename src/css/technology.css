@@ -127,3 +127,184 @@
     height: 400px;
 }
 
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+    .techDiv{
+        background-image: url("/assets/background/background-technology-tablet.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }    
+
+    .techDiv {
+        overflow: auto; 
+    }
+    
+    .techDiv::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .techDiv {
+        scrollbar-width: none;
+    }
+
+     .chosenTech{
+        font-size: 40px;
+     }
+
+     .techImg{
+        width: 360px;
+        height: 340px;
+     }
+}
+
+
+@media only screen and (max-width: 980px) and (min-width: 768px) {
+    .techDiv{
+        background-image: url("/assets/background/background-technology-tablet.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .techDiv {
+        overflow: auto; 
+    }
+    
+    .techDiv::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .techDiv {
+        scrollbar-width: none;
+    }
+
+    .techOverlayDiv{
+        display: flex;
+        flex-flow: column;
+        
+    }
+
+    .mainTechDiv{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .techTitleDiv{
+        order: 0;
+        justify-self: flex-start;
+        align-self: flex-start;
+    }
+
+    .imageDiv{
+        order: 1;
+    }
+
+
+
+    .buttonDiv{
+        order: 2;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descriptionDiv{
+        order: 3;
+    }
+
+
+    .techButton{
+        width: 70px;
+        height: 70px;
+        border-radius: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .techDiv{
+        background-image: url("/assets/background/background-technology-mobile.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .techDiv {
+        overflow: auto; 
+    }
+    
+    .techDiv::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .techDiv {
+        scrollbar-width: none;
+    }
+
+
+    .techOverlayDiv{
+        display: flex;
+        flex-flow: column;
+        
+    }
+
+    .mainTechDiv{
+        display: flex;
+        flex-flow: column;
+    
+    }
+
+    .techTitleDiv{
+        order: 0;
+        justify-self: flex-start;
+        align-self: flex-start;
+    }
+
+    .imageDiv{
+        order: 1;
+    }
+
+
+
+    .buttonDiv{
+        order: 2;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descriptionDiv{
+        order: 3;
+    }
+
+    .techTitleDiv,
+    .numberedTech{
+        font-size: 18px;
+    }
+
+    .chosenTech{
+        font-size: 24px;
+    }
+
+    .terminology{
+        font-size: 15px;
+    }
+
+    .techDescription{
+        font-size: 15px;
+        
+    }
+
+    .techButton{
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+    }
+}
+
+
+
+

@@ -25,6 +25,7 @@ export default function Technology() {
   }
 
 
+
   return (
     <div className='techDiv'>
       <Navbar />
@@ -60,7 +61,13 @@ export default function Technology() {
               </p>
           </div>
           <div className="imageDiv">
-              <img src={images.portrait} alt={name} className="techImg" />
+              <img 
+                	loading='lazy'
+                  src={images.portrait}
+                  alt={name}
+                  className="techImg" 
+                  
+              />
           </div>
         
         </div>
