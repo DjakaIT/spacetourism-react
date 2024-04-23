@@ -6,6 +6,7 @@
     height: 100vh; 
     color: white;
     overflow: hidden;
+
 }
 
 .techOverlayDiv{
@@ -140,6 +141,8 @@
 
     .techDiv {
         overflow: auto; 
+        overflow-x: hidden;
+
     }
     
     .techDiv::-webkit-scrollbar {
@@ -167,6 +170,8 @@
 
     .techDiv {
         overflow: auto; 
+        overflow-x: hidden;
+
     }
     
     .techDiv::-webkit-scrollbar {
@@ -238,6 +243,8 @@
 
     .techDiv {
         overflow: auto; 
+        overflow-x: hidden;
+
     }
     
     .techDiv::-webkit-scrollbar {
@@ -256,23 +263,30 @@
     .techOverlayDiv{
         display: flex;
         flex-flow: column;
+       
         
     }
 
     .mainTechDiv{
         display: flex;
         flex-flow: column;
+        position: relative;
+        bottom: 2rem;
     
     }
 
     .techTitleDiv{
         order: 0;
-        justify-self: flex-start;
-        align-self: flex-start;
+        position: relative;
+        bottom: 6rem;
+        left: 9rem;
+
     }
 
     .imageDiv{
         order: 1;
+        position: relative;
+        bottom: 2rem;
     }
 
 
@@ -281,12 +295,15 @@
         order: 2;
         display: flex;
         flex-flow: row;
-        justify-content: center;
-        align-items: center;
+        margin-right: 6rem;
+        
+        
     }
 
     .descriptionDiv{
         order: 3;
+       margin-top: 2rem;
+        
     }
 
     .techTitleH5{
@@ -307,7 +324,7 @@
 
     .techDescription{
         font-size: 15px;
-        
+        width: 80%;        
     }
 
     .techButton{
