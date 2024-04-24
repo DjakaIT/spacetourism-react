@@ -226,7 +226,11 @@
         position: relative;
         bottom: 35%;
         left: 10%;
+        transform: scale(0.4);
+
     }
+
+
  
 
     .crewSelectorDiv {
@@ -254,9 +258,6 @@
        font-size: 20px;
     }
 
-    .crewMemberImage{
-        transform: scale(0.4);
-    }
 
 
    

@@ -193,6 +193,8 @@
     .mainTechDiv{
         display: flex;
         flex-flow: column;
+        position: relative;
+        bottom: 1rem;
        
     }
 
@@ -200,6 +202,8 @@
         order: 0;
         justify-self: flex-start;
         align-self: flex-start;
+        position: relative;
+        bottom: 2rem;
     }
 
     .imageDiv{
@@ -208,7 +212,10 @@
 
     .techImg.landscape{
         border-radius: 0;
-        width: 100vw;        
+        width: 100vw;   
+        border-radius: 20px;
+        height: 340px;       
+     
     }
 
 
@@ -218,12 +225,23 @@
         flex-flow: row;
         justify-content: center;
         align-items: center;
+        margin-right: 25%;
+        position: relative;
+        gap: 6rem;
+        top: 1rem;
     }
 
     .descriptionDiv{
         order: 3;
+        margin-left: 10%;
+        position: relative;
+        top: 2rem;
     }
-
+    	
+    .terminology{
+        position: relative;
+        left: 15%;
+    }
 
     .techButton{
         font-size: 24px;
@@ -257,7 +275,7 @@
 
     .techImg.landscape{
         border-radius: 0;
-        width: 100vw;        
+        width: 100vw; 
     }
 
     .techOverlayDiv{

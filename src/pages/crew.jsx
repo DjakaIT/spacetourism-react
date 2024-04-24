@@ -58,13 +58,15 @@ const handlMemberOnClick = (index) => {
 
         <div 
             className="crewImageDiv"  
-            data-aos="fade-up"
+            data-aos={window.innerWidth >= 768 ? "fade-up" : ""}
             data-aos-duration="1500"
+
         >
             <img 
               src={images.png} 
               alt={name} 
               className='crewMemberImage'
+              
             />
         </div>
 
