@@ -228,6 +228,11 @@ h5, h1{
         width: 70%;
     }
 
+    .home-text-container{
+        position: relative;
+        bottom: 2em;
+    }
+
     .explore-btn {
         height: 160px; 
         width: 160px;
@@ -237,7 +242,7 @@ h5, h1{
 
     .explore-btn-container{
         
-        top: 22.1em;        
+        top: 20em;        
         left: 30%; 
     }
 }
