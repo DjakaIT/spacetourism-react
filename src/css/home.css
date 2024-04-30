@@ -230,7 +230,7 @@ h5, h1{
 
     .home-text-container{
         position: relative;
-        bottom: 4em;
+        bottom: 2em;
     }
 
     .explore-btn {
@@ -246,4 +246,43 @@ h5, h1{
         left: 30%; 
     }
 }
+
+
+@media only screen and (max-width: 550px) {
+    .homeDiv {
+        background-image: url("/assets/background/background-home-mobile.jpg"); /* Change background image */
+    }
+
+    .overlay-container {
+        top: 3em;
+        left: 1em;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    .description {
+        width: 70%;
+    }
+
+    .home-text-container{
+        position: relative;
+        bottom: 3em;
+    }
+
+    .explore-btn {
+        height: 160px; 
+        width: 160px;
+        font-size: 18px; 
+        line-height: 22px;
+    }
+
+    .explore-btn-container{
+        
+        top: 21em;        
+        left: 30%; 
+    }
+}
+  
   
