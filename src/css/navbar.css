@@ -97,10 +97,10 @@ ul li{
     margin-top: -1px; 
   }
 
-/* 
-.bm-burger-button {
+
+ .bm-burger-button {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 1rem;
   transform: translateY(-50%);
   background: none;
@@ -111,7 +111,7 @@ ul li{
 }
 
 .bm-burger-bars {
-  background: #373a47;
+  background: #ffffff;
 }
 
 .bm-burger-bars-hover {
@@ -140,8 +140,8 @@ ul li{
 
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
-} */
-
+} 
+ 
 
   
   @media only screen and (max-width: 1350px) and (min-width: 840px) {
