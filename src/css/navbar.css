@@ -214,7 +214,7 @@ ul, .navbar-dash{
     display: block;
     background: none;
     border: none;
-    position: fixed; 
+    position: sticky; 
     top: 3.2rem;
     width: 35px;
     height: 35px;
