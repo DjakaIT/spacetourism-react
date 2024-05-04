@@ -98,51 +98,51 @@ ul li{
   }
 
 
- .bm-burger-button {
-  position: absolute;
-  top: 10%;
-  left: 1rem;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  color: white;
-  font-size: 2rem;
-  cursor: pointer;
-}
+  .burger-button{
+    display: none;
+  }
 
-.bm-burger-bars {
-  background: #ffffff;
-}
 
-.bm-burger-bars-hover {
-  background: #a90000;
-}
-
-.bm-cross-button {
-  height: 24px;
-  width: 24px;
-}
-
-.bm-cross {
-  background: #bdc3c7;
-}
-
-.bm-menu {
-  background: #373a47;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
-}
-
-.bm-menu-wrap {
-  position: fixed;
-  height: 100%;
-}
-
-.bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
-} 
- 
-
+  .overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 99; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    position: relative;
+    bottom: 20%;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .overlay-menu li {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .overlay-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .overlay-menu li a:hover {
+    color: yellow; /* change color on hover if desired */
+  }
+  
   
   @media only screen and (max-width: 1350px) and (min-width: 840px) {
       nav{
@@ -208,6 +208,26 @@ ul, .navbar-dash{
     position: relative;
     bottom: 2rem;
     right: 2rem;
+  }
+
+  .burger-button {
+    display: block;
+    background: none;
+    border: none;
+    position: fixed; 
+    top: 3.2rem;
+    width: 35px;
+    height: 35px;
+    right: 2.5rem; 
+    transform: translateY(-50%);
+    z-index: 999; 
+    cursor: pointer;
+  }
+
+  .burger-button-icon{
+    height: 35px;
+    width: 35px;
+    color: white;
   }
 }
 
