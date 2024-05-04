@@ -200,7 +200,17 @@
         
     }
 
-
+    .crewDiv {
+        overflow: auto; 
+    }
+    
+    .crewDiv::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .crewDiv {
+        scrollbar-width: none;
+    }
     
     .crewMainDiv{
         display: flex;
