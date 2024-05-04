@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../css/navbar.css';
-import Sidebar from './Sidebar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
 
@@ -39,7 +38,7 @@ export default function Navbar() {
       <nav className="navbar">
         <img src="/assets/logo_48x48.png" alt="starry logo for navbar" className='navbar-logo' />
         <div className='navbar-dash'></div>
-          <button className='burger-button' onClick={toggleMenu}>{<FontAwesomeIcon icon={faBars} className='burger-button-icon'/>}</button>
+          <button className='burger-button' onClick={toggleMenu}>{<FontAwesomeIcon icon={showMenu ? faTimes : faBars}  className='burger-button-icon'/>}</button>
           <ul className="navbarList">
               <li className="navbarList-item">
                 <NavLink
