@@ -12,26 +12,7 @@ export default function Navbar() {
     setShowMenu(!showMenu);
   }
 
-  useEffect(() => {
-    const handleCloseOther = (e) => {
-      if(e.key === 'Escape' || e.target.closest('.overlay')){
-        setShowMenu(false);
-      }
-    }
 
-    if(showMenu){
-      document.addEventListener('keydown', handleCloseOther)
-      document.addEventListener('click', handleCloseOther)
-    } else {
-      document.removeEventListener('keydown', handleCloseOther)
-      document.removeEventListener('click', handleCloseOther)
-    }
-
-    return () => {
-      document.removeEventListener('keydown', handleCloseOther)
-      document.removeEventListener('click', handleCloseOther)
-    }
-  }, [showMenu])
 
   return (
     <div className='navbarDiv'>
