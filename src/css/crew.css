@@ -201,7 +201,7 @@
     }
 
     .crewDiv {
-        overflow: auto; 
+        overflow-x: hidden; 
     }
     
     .crewDiv::-webkit-scrollbar {
