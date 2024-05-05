@@ -198,6 +198,7 @@ ul li{
     display: none;
   }
 
+ 
 
 }
 
@@ -210,18 +211,16 @@ ul, .navbar-dash{
   .navbarDiv{
     position: relative;
     bottom: 2rem;
-    right: 2rem;
+    right: 1.5rem;
   }
 
   .burger-button {
     display: block;
     background: none;
     border: none;
-    position: relative; 
-    left: -50%;
+   
     width: 35px;
-    height: 35px;
-    right: 2.5rem; 
+    height: 35px;   
     z-index: 999; 
     cursor: pointer;
   }
@@ -235,3 +234,44 @@ ul, .navbar-dash{
 
 
 
+
+@media only screen and (max-width: 450px) {
+  .burger-button{
+    position: absolute; 
+    bottom: 2rem;
+    left: -1rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 530px) {
+  .burger-button{
+    position: absolute; 
+    bottom: 2rem;
+    left: 3rem;
+  }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 600px) {
+  .burger-button{
+    position: absolute; 
+    bottom: 2rem;
+    left: 4rem;
+  }
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 680px) {
+  .burger-button{
+    position: absolute; 
+    left: 8rem;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 768px) {
+  .burger-button{
+    position: absolute; 
+    bottom: 2rem;
+    left: 12rem;
+  }
+}
