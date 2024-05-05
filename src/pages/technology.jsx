@@ -35,13 +35,13 @@ export default function Technology() {
       <Navbar />
 
       <div className="techOverlayDiv">
-        <div className="techTitleDiv">
+        <div className="techTitleDiv" data-aos="fade-left" data-aos-duration="1500">
           <b className="numberedTech">03</b>
           <h5 className="techTitleH5">SPACE LAUNCH 101</h5>
         </div>
         <div className="mainTechDiv">
 
-          <div className="buttonDiv">
+          <div className="buttonDiv" data-aos="fade-left" data-aos-duration="1500">
             {tech.map((item, index) => (
               <button
                 className={`techButton ${value === index ? 'active' : ''}`}
@@ -52,7 +52,7 @@ export default function Technology() {
               </button>
             ))}
           </div>
-          <div className="descriptionDiv">
+          <div className="descriptionDiv" data-aos="fade-right" data-aos-duration="1500">
             <h5 className="terminology">
               The Terminology..
             </h5>
@@ -63,7 +63,7 @@ export default function Technology() {
               {description}
             </p>
           </div>
-          <div className="imageDiv">
+          <div className="imageDiv" data-aos="fade-left" data-aos-duration="1500">
             <img
             src={windowSize > 980 ? images.portrait : images.landscape}
             alt={name}
