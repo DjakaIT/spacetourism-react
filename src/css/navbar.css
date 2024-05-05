@@ -107,15 +107,16 @@ ul li{
     position: fixed;
     top: 0;
     right: 0;
-    width: 35%;
+    width: 45%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(151, 151, 151, 0.3); 
+    backdrop-filter: blur(8px);
     z-index: 99; 
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+}
+
   .overlay-menu {
     list-style-type: none;
     padding: 0;
@@ -131,6 +132,8 @@ ul li{
   .overlay-menu li {
     margin-bottom: 20px;
     display: flex;
+    font-family: 'Barlow Condensed', serif;
+    font-size: 14px;
   }
   
   .overlay-menu li a {
@@ -140,7 +143,7 @@ ul li{
   }
   
   .overlay-menu li a:hover {
-    color: yellow; /* change color on hover if desired */
+    color: #6ab7ff;
   }
   
   
